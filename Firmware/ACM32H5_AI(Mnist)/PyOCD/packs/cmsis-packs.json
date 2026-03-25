@@ -1,0 +1,22 @@
+{
+    "boards": {
+        "ACM32H528IIT7": {
+            "deviceNames": [
+                "ACM32H528IIT7"
+            ],
+            "packId": "manual"
+        }
+    },
+    "devices": {
+        
+  
+    },
+    "packs": {
+        
+  
+    },
+    "vendors": {
+        
+        
+    }
+}

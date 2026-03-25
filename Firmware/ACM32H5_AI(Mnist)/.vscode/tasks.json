@@ -1,0 +1,49 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Build",
+			"command": "make compile",
+			"args": [
+				
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "Download",
+			"command": "make download",
+			"args": [
+				
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "Build & Download",
+			"command": "make compile;make download",
+			"args": [
+				
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "Clean",
+			"command": "make clean",
+			"args": [
+				
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		}
+	]
+}
